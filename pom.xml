@@ -58,14 +58,14 @@
 			<scope>runtime</scope>
 		</dependency>
 		
-		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+
 <dependency>
     <groupId>org.slf4j</groupId>
     <artifactId>slf4j-simple</artifactId>
     <version>2.0.0-alpha1</version>
     <scope>test</scope>
 </dependency>
-		
+		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
 		
 
 		<dependency>
@@ -106,6 +106,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>${project.parent.version}</version>
 			</plugin>
 		</plugins>
 	</build>
